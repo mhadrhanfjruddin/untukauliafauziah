@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Untuk Aulia Fauziah 🤍</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="music" loop>
+  <source src="piano.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+
+  <!-- SLIDE 1 -->
+  <section class="slide active bg-photo" style="background-image:url('latarbelakang.jpg')">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="floating">💖 ✨ 💖</div>
+      <h1>Aalloo 🙌🏻 Auull 🤍</h1>
+      <p>aku ngirim ini, untuk ko, jadi ko harus baca pelan pelan dan simak oteee.</p>
+      <button onclick="nextSlide()">Lanjut</button>
+    </div>
+  </section>
+
+  <!-- SLIDE 2 -->
+  <section class="slide">
+    <div class="flowers">
+      <span>🌸</span><span>🌷</span><span>🌼</span>
+    </div>
+    <h2>KO MASIH INGAT GA MOMENT MOMENT INII WAKTU ITUU 😅</h2>
+    <div class="photo-grid">
+      <img src="ini kesatu.jpg">
+      <img src="ini kedua.jpg">
+      <img src="ini ketiga.jpg">
+      <img src="ini keempat.jpg">
+    </div>
+    <p>Lucu ya… ternyata kita berdua punya banyak momen tanpa sadar.</p>
+    <button onclick="nextSlide()">Lanjut</button>
+  </section>
+
+  <!-- SLIDE 3 -->
+  <section class="slide">
+    <div class="butterflies">
+      <span>🦋</span><span>🦋</span>
+    </div>
+    <p>
+      Aku nggak jatuh cinta dengan gegabah.<br>
+      Aku cuma pelan-pelan nyaman.<br>
+      Dan ko entah gimana caranya… bikin aku tenang 🤍. ko pake pelet e😋
+    </p>
+    <button onclick="nextSlide()">Lanjut</button>
+  </section>
+
+  <!-- SLIDE 4 -->
+  <section class="slide">
+    <div class="petals">🌷 🌸 🌺</div>
+    <img class="special-photo" src="pertama gimana.jpg">
+    <p>
+      Di momen ini aku sadar,<br>
+      perasaan baik itu nggak ribut,<br>
+      tapi hangat dan tenang.
+      sbelum kelik lanjut, ko harus download artivivie, login, kemudian scan poto di atas (WAJIB!), kalau ga bisa call me
+    </p>
+    <button onclick="nextSlide()">Satu hal lagi</button>
+  </section>
+
+  <!-- SLIDE 5 -->
+  <section class="slide">
+    <h1>AULL,</h1>
+    <h2>maukah ko jadi pacar aku? 🌷</h2>
+    <p class="small">
+      Kalau belum siap, nggak apa-apa.<br>
+      Aku tetap hormat sama perasaan ko.
+    </p>
+    <div class="btns">
+      <button class="yes" onclick="showPopup()">Mau 🤍</button>
+      <button class="no" id="noBtn">Belum 😅</button>
+    </div>
+  </section>
+
+</div>
+
+<!-- SLIDE 6 / POPUP -->
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <div class="popup-anim">🌸 🦋 🌷 🦋 🌸</div>
+    <h1>Terima kasih 🤍</h1>
+    <p>
+      Apa pun jawaban ko,<br>
+      aku bersyukur pernah punya perasaan setulus ini.<br><br>
+      Semoga kita selalu baik-baik ya 🌱
+    </p>
+    <button onclick="restart()">Ulangi</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
